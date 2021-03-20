@@ -43,6 +43,21 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.default {
+    color: black;
+  }
+  
+  .default:hover {
+    background: #e7e7e7;
+  }
+  .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 10px;
+    cursor: pointer;
+    display: inline-block;
+  }
 /* .card::before{
   position: absolute;
   top:2rem;
@@ -67,3 +82,24 @@
   font-family: 'Roboto', sans-serif;
   box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
 }
+
+.alert {
+    padding: 20px;
+    background-color:green;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

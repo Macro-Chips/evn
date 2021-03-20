@@ -4,13 +4,6 @@ import { Button } from '@material-ui/core';
 import LoginHeader from "./LoginHeader";
 
 
-function handleClick(item) {
-  console.log("id", item.id);
-  // window.location = e.target.id;
-  // return (
-  //     <Routes />
-  // )
-}
 class AppLoginButton extends React.Component{
   constructor(props) {
     super(props);
@@ -43,7 +36,6 @@ class RecLoginButton extends React.Component{
     )
 };
 handleClick() {
-  console.log("id", this.id);
   window.location = this.id;
 }
 }
