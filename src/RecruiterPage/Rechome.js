@@ -1,18 +1,22 @@
 import React from "react";
 import Header from "../Header";
+import Card from "../Card";
 
 
 export default function RecHome() {
-    return (
-
-
-    <div classname="app">
-    <Header logged="true" />
-    <h2>Recruiter Home/ Candidates</h2>
-    </div>
-    );
-  
+      const cells = [];
+      const randJobs = ["Software Engineering Intern", "Backend Intern", "iOS Developer"]
+      for (let i = 0; i < 3; i++) {
+        cells.push(
+            <Card job={randJobs[i]} logo="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" recruiter={true}/>
+        );
+      }
+        return (
+        <div classname="app">
+        <Header logged="true" />
+        {cells}
+        </div>
+        );
     {/* Header */}
     {/* App Body */}
-      {/* Side Bar */}
   }
