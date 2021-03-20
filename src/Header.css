@@ -5,6 +5,7 @@
     padding-bottom: 120px;
     border-bottom: 0.2px solid lightcoral;
     z-index: 999;
+    background-color: white;
 }
 
 .headerLeft {
