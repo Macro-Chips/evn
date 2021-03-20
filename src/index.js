@@ -5,18 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 
-const theme = createMuiTheme({
-  palette: {
-     primary: {
-        main: "#FF6A6A" // This is an orange looking color
-               },
-     secondary: {
-        main: "#FF7A7A" //Another orange-ish color
-                }
-           }
-  //fontFamily: roboto as an aside, highly recommend importing roboto font for Material UI projects! Looks really nice
-});
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
