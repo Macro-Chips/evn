@@ -9,13 +9,13 @@ function App() {
     <div>
       <Routes />
       {/* Header */}
-      <Header />
+      {/* <Header /> */}
 
       {/* App Body */}
-      <div className="appBody">
-        <Sidebar />
+      {/* <div className="appBody">
+        <Sidebar /> */}
 
-    </div>
+    {/* </div> */}
   </div>
   );
 }
