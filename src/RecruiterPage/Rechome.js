@@ -8,7 +8,7 @@ export default function RecHome() {
       const randJobs = ["Software Engineering Intern", "Backend Intern", "iOS Developer", "Andriod Developer", "Marketing Intern"]
       for (let i = 0; i < 5; i++) {
         cells.push(
-            <Card job={randJobs[i]} logo="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" recruiter={true}/>
+            <Card job={randJobs[i]} logo="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" recruiter={true} window="/recruiter/jobs/candidates"/>
         );
       }
         return (
