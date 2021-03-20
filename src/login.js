@@ -1,10 +1,11 @@
 import React from "react";
+import { makeStyles } from "@material-ui/core/styles"
 import { Button } from '@material-ui/core'
 
 class AppLoginButton extends React.Component{
   render(){
       return(
-        <Button>Applicant Login</Button>
+        <Button variant = "contained" color = "primary">Applicant Login</Button>
       )
   };
 }
@@ -12,7 +13,7 @@ class AppLoginButton extends React.Component{
 class RecLoginButton extends React.Component{
   render(){
     return(
-      <Button>Recruiter Login</Button>
+      <Button variant = "contained" color = "primary">Recruiter Login</Button>
     )
 };
 }
