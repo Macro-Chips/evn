@@ -10,7 +10,6 @@ export default function Card(props){
     function handleClick(){
         setNotify(true);
     }
-    // console.log("logo", job)
 
     return (
         
@@ -29,14 +28,16 @@ export default function Card(props){
       <div className="jobLogo">
             <img className="logo"src={props.logo} ></img>
             </div>
-      <p class="card__body">
-      {props.job}
-        </p>  
+       
 
         {
         props.student && (
+            <div> 
+            <p class="card__body">
+                {props.job}
+            </p> 
             <button onClick={handleClick}class="btn default">Quick Apply</button>
-
+            </div>
         )
     }
         {
@@ -44,7 +45,9 @@ export default function Card(props){
                 <p class="card__body"><a href="/recruiter/jobs/candidates">{props.job}</a></p>
             )
         }
-   
+    <p class="card__body">
+                {props.job}
+            </p> 
     
     
     </div>

@@ -25,12 +25,13 @@ export default function Routes() {
         <Route path="/applicant/jobs">
           <AppHome />
         </Route>
-        <Route path="/recruiter/jobs">
-          <RecHome />
-        </Route>
         <Route path="/recruiter/jobs/candidates">
           <Candidates />
         </Route>
+        <Route path="/recruiter/jobs">
+          <RecHome />
+        </Route>
+        
       </Switch>
     </Router>
   )
