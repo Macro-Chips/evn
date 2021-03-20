@@ -24,7 +24,10 @@ export default function Card(props){
             )
         }
         <div class="card">
+        {/* <div class="content"> */}
+        <div class="card transition">
     <div class="card__container">
+
       <div className="jobLogo">
             <img className="logo"src={props.logo} ></img>
             </div>
@@ -42,14 +45,13 @@ export default function Card(props){
     }
         {
             props.recruiter && (
-                <p class="card__body"><a href="/recruiter/jobs/candidates">{props.job}</a></p>
+                <p class="card__body"><a href={props.window}>{props.job}</a></p>
             )
         }
-    <p class="card__body">
-                {props.job}
-            </p> 
+
     
-    
+        {/* </div> */}
+        </div>
     </div>
     </div>
    </div>
