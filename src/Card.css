@@ -53,10 +53,11 @@
   .btn {
     border: none;
     background-color: inherit;
-    padding: 14px 28px;
+    padding: 5px 5px;
     font-size: 10px;
     cursor: pointer;
     display: inline-block;
+    text-align: center;
   }
 /* .card::before{
   position: absolute;
