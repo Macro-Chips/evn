@@ -9,7 +9,7 @@ function Header() {
             </div>    
             
             <div className="headerRight">
-            <img className="evn_logo"src="https://i.pinimg.com/originals/40/2f/09/402f09736ae33509f8b6f984bf1b917c.jpg"></img>
+            <img className="evn_logo"src="https://www.billionsinstitute.com/wp-content/uploads/2014/10/Jennifer-Circle-Headshot-300X300.png"></img>
             </div>
         </nav>
     )
