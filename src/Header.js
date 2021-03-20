@@ -9,7 +9,7 @@ function Header(logged) {
             </div>    
             
             <div className="headerRight">
-            <img className="userProfile"src="https://www.billionsinstitute.com/wp-content/uploads/2014/10/Jennifer-Circle-Headshot-300X300.png"></img>
+            <img className="userProfile"src="https://i.pinimg.com/originals/66/48/a8/6648a8201db92ac2a8e64f4920694070.jpg"></img>
             </div>
         </nav>
     )

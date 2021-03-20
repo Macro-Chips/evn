@@ -17,7 +17,7 @@ export default function AppHome() {
     <Header logged="true" />
     <div className="sidebar">
             <div className="sidebarTop">
-            <img className="evn_logo"src="https://www.billionsinstitute.com/wp-content/uploads/2014/10/Jennifer-Circle-Headshot-300X300.png"></img>
+            <img className="evn_logo"src="https://i.pinimg.com/originals/66/48/a8/6648a8201db92ac2a8e64f4920694070.jpg"></img>
                 <h2>Jane Doe</h2>
                 <h7> &nbsp;</h7>
                 <h4></h4>

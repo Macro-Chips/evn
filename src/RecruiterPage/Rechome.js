@@ -16,7 +16,7 @@ export default function RecHome() {
         <Header logged="true" />
         <div className="sidebar">
             <div className="sidebarTop">
-            <img className="evn_logo"src="https://cdn0.handsonconnect.org/0105/images/Tavares%20CIRCLE.jpg"></img>
+            <img className="evn_logo"src="https://i.pinimg.com/originals/66/48/a8/6648a8201db92ac2a8e64f4920694070.jpg"></img>
                 <h2>John Doe</h2>
                 <h7> &nbsp;</h7>
                 <h4>Recruiter for Spotify</h4>
