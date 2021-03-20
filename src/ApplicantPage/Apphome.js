@@ -5,7 +5,7 @@ import SideBar from "../Sidebar";
 
 export default function AppHome() {
   const cells = [];
-  const randJobs = ["Software Engineering Intern", "Backend Intern", "iOS Developer", "Andriod Developer", "Marketing Intern"]
+  const randJobs = ["Software Engineering Intern", "Backend Intern", "iOS Developer", "Android Developer", "Marketing Intern"]
   const randLogo = ["https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png", "https://i.pinimg.com/originals/ce/af/83/ceaf8384322af790486cff176a0a2f24.png", "https://www.danoneinstitute.org/wp-content/uploads/2020/06/logo-rond-twitter.png", "https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png", "https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png"]
   for (let i = 0; i < 5; i++) {
     cells.push(
@@ -20,15 +20,15 @@ export default function AppHome() {
             <img className="evn_logo"src="https://www.billionsinstitute.com/wp-content/uploads/2014/10/Jennifer-Circle-Headshot-300X300.png"></img>
                 <h2>Jane Doe</h2>
                 <h7> &nbsp;</h7>
-                <h4>Recruiter for Spotify</h4>
+                <h4></h4>
             </div>
             
             <div className="sidebarStats">
                 <div className="sidebarStat">
-                    <p>Candidate Matches</p>
+                    <p>Job Matches</p>
                     <p className="sidebarStatNum">20</p>
                 </div>
-                <div className="sidebarStat">Your Job Listings</div>
+                <div className="sidebarStat">Applications Submitted</div>
                 <p className="sidebarStatNum">14</p>
             </div>
         </div>

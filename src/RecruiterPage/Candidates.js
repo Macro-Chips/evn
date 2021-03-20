@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../Card";
 import Header from "../Header";
-
+import SideBar from "../Sidebar";
 
 export default function Candidates() {
     const cells = [];
@@ -15,6 +15,7 @@ export default function Candidates() {
     return (
     <div classname="app">
     <Header logged="true" />
+    
     {cells}
     </div>
     );
